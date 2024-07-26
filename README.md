@@ -78,7 +78,7 @@ sh
     DB_PASS="root"
     DB_NAME="bdd_storAix"
     
-    BACKUP_DIR="/var/backups/db"
+    BACKUP_DIR="/var/www/html/"
 
 
 
@@ -86,7 +86,7 @@ Rendez le script exécutable :
 
 sh
 
-    sudo chmod +x /usr/local/bin/backup_db.sh
+    sudo chmod +x /var/www/html/backup_db.sh
 
 Configurer la tâche cron
 
@@ -100,7 +100,7 @@ Ajoutez la ligne suivante pour exécuter le script chaque semaine :
 
 sh
 
-    0 2 * * 0 /usr/local/bin/backup_db.sh
+    0 2 * * 0 /var/www/html/backup_db.sh
 
 6. Tester l'installation
 
@@ -111,4 +111,4 @@ Testez la sauvegarde manuellement :
 
 sh
 
-    sudo /usr/local/bin/backup_db.sh
+    sudo /var/www/html/backup_db.sh
