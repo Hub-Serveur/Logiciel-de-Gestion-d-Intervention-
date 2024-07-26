@@ -1,0 +1,334 @@
+/* Style pour l'overlay des paramètres */
+#settingsOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#settingsOverlay .overlay-content {
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 1200px;
+    height: 80%;
+    overflow: hidden;
+}
+
+.settings-sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #143446;
+    box-shadow: 2px 0 15px rgba(0,0,0,0.5), 0 2px 15px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.settings-menu li {
+    margin-bottom: 10px;
+}
+
+.settings-menu button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #143446;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.settings-menu button:hover {
+    background-color: #e6e6e6;
+}
+
+.settings-details {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-radius: 0 15px 15px 0;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles pour les équipes */
+.team {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.team h2 {
+    font-size: 18px;
+}
+
+.team h3 {
+    font-size: 14px;
+    color: #143446;
+}
+
+.team ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.team ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Overlay de modification de l'équipe */
+#editTeamOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1100;
+}
+
+#editTeamOverlay .overlay-content {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+}
+
+#editTeamOverlay .overlay-content h1 {
+    margin-top: 0;
+}
+
+#editTeamOverlay .overlay-content .form-group {
+    margin-bottom: 15px;
+}
+
+#editTeamOverlay .overlay-content .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#editTeamOverlay .overlay-content .form-group input,
+#editTeamOverlay .overlay-content .form-group select {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#editTeamOverlay .overlay-content .close-button {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #143446;
+}
+
+/* Bouton de sauvegarde */
+#editTeamOverlay .overlay-content .btn-save {
+    background-color: #143446;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#editTeamOverlay .overlay-content .btn-save:hover {
+    background-color: #0f2a34;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-delete {
+    background-color: #FF006A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.header-with-button h1 {
+    margin: 0;
+}
+
+.header-with-button .btn-add {
+    margin-left: auto;
+}
+
+.btn-add {
+    background-color: #FF006A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.client-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.client {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    width: calc(50% - 10px); /* deux colonnes avec un espace de 10px */
+}
+
+.client:hover {
+    background-color: #e0e0e0;
+}
+
+.header-with-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+}
+
+/* Overlay de modification du client */
+#editClientOverlay, #editLocataireOverlay, #editAccountOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1100;
+}
+
+#editClientOverlay .overlay-content, #editLocataireOverlay .overlay-content, #editAccountOverlay .overlay-content {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 800px;
+    padding: 20px;
+    position:relative;
+}
+
+#editClientOverlay .overlay-content h1, #editLocataireOverlay .overlay-content h1, #editAccountOverlay .overlay-content h1 {
+    margin-top: 0;
+}
+
+#editClientOverlay .overlay-content .form-group, #editLocataireOverlay .overlay-content .form-group, #editAccountOverlay .overlay-content .form-group {
+    margin-bottom: 15px;
+}
+
+#editClientOverlay .overlay-content .form-group label, #editLocataireOverlay .overlay-content .form-group label, #editAccountOverlay .overlay-content .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#editClientOverlay .overlay-content .form-group input, #editLocataireOverlay .overlay-content .form-group input,
+#editClientOverlay .overlay-content .form-group select, #editLocataireOverlay .overlay-content .form-group select,
+#editAccountOverlay .overlay-content .form-group input, #editAccountOverlay .overlay-content .form-group select {
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+#editClientOverlay .overlay-content .close-button, #editLocataireOverlay .overlay-content .close-button, #editAccountOverlay .overlay-content .close-button {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #143446;
+}
+
+/* Bouton de sauvegarde */
+#editClientOverlay .overlay-content .btn-save, #editLocataireOverlay .overlay-content .btn-save, #editAccountOverlay .overlay-content .btn-save {
+    background-color: #143446;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#editClientOverlay .overlay-content .btn-save:hover, #editLocataireOverlay .overlay-content .btn-save:hover, #editAccountOverlay .overlay-content .btn-save:hover {
+    background-color: #0f2a34;
+}
+
+.account {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.account:hover {
+    background-color: #e0e0e0;
+}

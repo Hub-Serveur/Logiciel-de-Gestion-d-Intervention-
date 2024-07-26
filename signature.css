@@ -1,0 +1,83 @@
+/* Autres styles d'overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    z-index: 1000; /* Valeur de z-index pour les autres overlays */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1500; /* Valeur de z-index plus élevée pour l'overlay de signature */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-signature {
+    background-color: #fff;
+    margin:8% auto; /* Diminuer la marge pour augmenter la zone visible */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Augmenter la largeur */
+    max-width: 900px; /* Augmenter la largeur maximale */
+    height: 80%; /* Ajouter la hauteur pour occuper plus d'espace vertical */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: auto; /* Pour gérer le débordement si nécessaire */
+}
+
+.modal-content-signature-ask {
+    background-color: #fff;
+    margin:8% auto; /* Diminuer la marge pour augmenter la zone visible */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Augmenter la largeur */
+    max-width: 700px; /* Augmenter la largeur maximale */
+    height: 10%; /* Ajouter la hauteur pour occuper plus d'espace vertical */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: auto; /* Pour gérer le débordement si nécessaire */
+}
+
+.close-button-signature {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button-signature:hover,
+.close-button-signature:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#signaturePadOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px; /* Ajoutez du padding pour plus d'espace */
+    box-sizing: border-box;
+}
+
+#signaturePadCanvas {
+    width: 100%;
+    height: 90%;
+    border: 1px solid #000;
+}

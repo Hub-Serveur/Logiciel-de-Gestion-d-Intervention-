@@ -1,0 +1,656 @@
+[2024-07-01 09:02:42] ID du chantier: 5, Unique ID: 62
+[2024-07-01 09:02:42] Données du chantier: Array
+(
+    [ID_Chantier] => 5
+    [Titre] => Construction École
+    [Adresse] => 202 rue Saint-Martin
+    [Ville] => Paris
+    [CodePostal] => 75003
+    [Zone] => Île-de-France
+    [Description] => Construction d'une nouvelle école primaire
+    [NombreColis] => 80
+    [NoteInterventionClient] => Bon travail réalisé par l'équipe. L'école est fonctionnelle et les enfants pourront en profiter dès la rentrée prochaine.
+    [NoteInterventionEquipe] => Les travaux ont été effectués avec rigueur et professionnalisme, malgré quelques difficultés rencontrées en cours de projet.
+    [StatutIntervention] => Facturé
+    [StatutSAV] => Requis
+    [ID_Client] => 5
+    [ID_Equipe] => 4
+    [Nom_Equipe] => Equipe Delta
+    [EquipeTelephone] => 0604040404
+    [LocataireNom] => 
+    [LocatairePrenom] => 
+    [LocataireTelephoneFixe] => 
+    [LocataireTelephoneMobile] => 
+    [Date_Travail] => 2024-06-25
+    [Heure_Debut] => 13:00:00
+    [Heure_Fin] => 16:00:00
+    [ClientNom] => Bernier
+    [ClientPrenom] => Emilie
+    [ClientEmail] => emilie.bernier@example.com
+    [ClientTelephoneFixe] => 0456789012
+    [ClientTelephoneMobile] => 0456789012
+)
+
+[2024-07-01 09:02:42] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Thomas
+            [Prenom] => Alexandre
+        )
+
+    [1] => Array
+        (
+            [Nom] => Lemoine
+            [Prenom] => Chantal
+        )
+
+)
+
+[2024-07-01 09:02:42] Images: Array
+(
+)
+
+[2024-07-01 09:02:42] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 09:45:19] ID du chantier: 1, Unique ID: 65
+[2024-07-01 09:45:19] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-06-26
+    [Heure_Debut] => 10:00:00
+    [Heure_Fin] => 19:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 09:45:19] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 09:45:19] Images: Array
+(
+)
+
+[2024-07-01 09:45:19] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 09:45:36] ID du chantier: 1, Unique ID: 67
+[2024-07-01 09:45:36] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-06-27
+    [Heure_Debut] => 07:00:00
+    [Heure_Fin] => 14:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 09:45:36] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 09:45:36] Images: Array
+(
+)
+
+[2024-07-01 09:45:36] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 09:49:28] ID du chantier: 1, Unique ID: 67
+[2024-07-01 09:49:28] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-06-27
+    [Heure_Debut] => 07:00:00
+    [Heure_Fin] => 14:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 09:49:28] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 09:49:28] Images: Array
+(
+)
+
+[2024-07-01 09:49:28] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 09:49:55] ID du chantier: 5, Unique ID: 62
+[2024-07-01 09:49:55] Données du chantier: Array
+(
+    [ID_Chantier] => 5
+    [Titre] => Construction École
+    [Adresse] => 202 rue Saint-Martin
+    [Ville] => Paris
+    [CodePostal] => 75003
+    [Zone] => Île-de-France
+    [Description] => Construction d'une nouvelle école primaire
+    [NombreColis] => 80
+    [NoteInterventionClient] => Bon travail réalisé par l'équipe. L'école est fonctionnelle et les enfants pourront en profiter dès la rentrée prochaine.
+    [NoteInterventionEquipe] => Les travaux ont été effectués avec rigueur et professionnalisme, malgré quelques difficultés rencontrées en cours de projet.
+    [StatutIntervention] => Facturé
+    [StatutSAV] => Requis
+    [ID_Client] => 5
+    [ID_Equipe] => 4
+    [Nom_Equipe] => Equipe Delta
+    [EquipeTelephone] => 0604040404
+    [LocataireNom] => 
+    [LocatairePrenom] => 
+    [LocataireTelephoneFixe] => 
+    [LocataireTelephoneMobile] => 
+    [Date_Travail] => 2024-06-25
+    [Heure_Debut] => 13:00:00
+    [Heure_Fin] => 16:00:00
+    [ClientNom] => Bernier
+    [ClientPrenom] => Emilie
+    [ClientEmail] => emilie.bernier@example.com
+    [ClientTelephoneFixe] => 0456789012
+    [ClientTelephoneMobile] => 0456789012
+)
+
+[2024-07-01 09:49:55] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Thomas
+            [Prenom] => Alexandre
+        )
+
+    [1] => Array
+        (
+            [Nom] => Lemoine
+            [Prenom] => Chantal
+        )
+
+)
+
+[2024-07-01 09:49:55] Images: Array
+(
+)
+
+[2024-07-01 09:49:55] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 12:03:58] ID du chantier: 1, Unique ID: 65
+[2024-07-01 12:03:58] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-06-26
+    [Heure_Debut] => 10:00:00
+    [Heure_Fin] => 19:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 12:03:58] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 12:03:58] Images: Array
+(
+)
+
+[2024-07-01 12:03:58] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 12:09:20] ID du chantier: 1, Unique ID: 67
+[2024-07-01 12:09:20] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-06-27
+    [Heure_Debut] => 07:00:00
+    [Heure_Fin] => 14:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 12:09:20] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 12:09:20] Images: Array
+(
+)
+
+[2024-07-01 12:09:20] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
+[2024-07-01 12:09:45] ID du chantier: 1, Unique ID: 1
+[2024-07-01 12:09:45] Données du chantier: Array
+(
+    [ID_Chantier] => 1
+    [Titre] => Projet Saint-Michel
+    [Adresse] => 789 boulevard Saint-Michel
+    [Ville] => Paris
+    [CodePostal] => 75006
+    [Zone] => Île-de-France
+    [Description] => Rénovation complète de l'édifice
+    [NombreColis] => 30
+    [NoteInterventionClient] => L'intervention s'est bien déroulée, les délais ont été respectés et les équipes ont fait preuve d'un grand professionnalisme.
+    [NoteInterventionEquipe] => Le chantier s'est déroulé sans encombre. Les matériaux étaient de bonne qualité et les tâches ont été exécutées de manière très professionnelle.
+    [StatutIntervention] => En cours
+    [StatutSAV] => Non Requis
+    [ID_Client] => 1
+    [ID_Equipe] => 1
+    [Nom_Equipe] => Equipe Alpha
+    [EquipeTelephone] => 0601010101
+    [LocataireNom] => Duval
+    [LocatairePrenom] => Marie
+    [LocataireTelephoneFixe] => 0412345678
+    [LocataireTelephoneMobile] => 0612345678
+    [Date_Travail] => 2024-05-27
+    [Heure_Debut] => 09:30:00
+    [Heure_Fin] => 12:00:00
+    [ClientNom] => Leroy
+    [ClientPrenom] => Michel
+    [ClientEmail] => michel.leroy@example.com
+    [ClientTelephoneFixe] => 0123456789
+    [ClientTelephoneMobile] => 0123456789
+)
+
+[2024-07-01 12:09:45] Intervenants: Array
+(
+    [0] => Array
+        (
+            [Nom] => Dupont
+            [Prenom] => Jean
+        )
+
+    [1] => Array
+        (
+            [Nom] => Moreau
+            [Prenom] => Paul
+        )
+
+)
+
+[2024-07-01 12:09:45] Images: Array
+(
+)
+
+[2024-07-01 12:09:45] Équipes: Array
+(
+    [0] => Array
+        (
+            [Nom_Equipe] => Equipe Alpha
+        )
+
+    [1] => Array
+        (
+            [Nom_Equipe] => Equipe Beta
+        )
+
+    [2] => Array
+        (
+            [Nom_Equipe] => Equipe Gamma
+        )
+
+    [3] => Array
+        (
+            [Nom_Equipe] => Equipe Delta
+        )
+
+    [4] => Array
+        (
+            [Nom_Equipe] => Equipe Epsilon
+        )
+
+)
+
